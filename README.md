@@ -5,6 +5,12 @@ explainable AI transaction categoriser, and statistical anomaly detection for
 bookkeeping review. The accounting core is deterministic and auditable; the AI
 only *suggests*, it never silently changes the books.
 
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)](.github/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+---
+
 ## Why it matters
 
 Most "AI bookkeeping" demos get the accounting wrong: they treat a ledger as a

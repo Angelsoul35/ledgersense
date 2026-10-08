@@ -161,4 +161,4 @@ multi-currency, period closing, and training on real labelled transactions.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+[MIT](LICENSE) © Angelo David Padilla Romero

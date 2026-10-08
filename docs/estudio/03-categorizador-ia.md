@@ -12,11 +12,12 @@ con los términos que la motivaron: un contable puede ver *por qué* y corregir.
 ## La trampa del sobreajuste (y cómo la evitamos)
 
 Si entrenas y evalúas con las mismas plantillas sintéticas, obtienes una
-exactitud de ~1,0 que **no significa nada**: el modelo memorizó las frases. Esto
-no es teórico: la **primera versión de este proyecto** sacó **0,44** en una
-evaluación con frases disjuntas y una brecha train-test de **0,56**. Eso es
-memorización pura, y solo se vio al correr la evaluación honesta, no al confiar
-en el número dentro de distribución.
+exactitud de ~1,0 que **no significa nada**: el modelo memorizó las frases, no
+aprendió a categorizar. El síntoma es una exactitud dentro de distribución casi
+perfecta que se desploma en cuanto evalúas descripciones cuyo vocabulario no
+estaba en el entrenamiento, con una brecha train-test grande. Por eso no
+confiamos en el número dentro de distribución: medimos con un split disjunto por
+anclas, que es donde la memorización se nota.
 
 ### La corrección
 

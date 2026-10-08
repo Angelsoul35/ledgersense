@@ -68,8 +68,7 @@ class JournalEntry:
                 "description": self.description,
                 "memo": self.memo,
                 "lines": [
-                    [line.account_code, line.debit_cents, line.credit_cents]
-                    for line in self.lines
+                    [line.account_code, line.debit_cents, line.credit_cents] for line in self.lines
                 ],
             },
             sort_keys=True,
@@ -156,9 +155,7 @@ class Ledger:
             c = credit.get(account.code, 0)
             if d == 0 and c == 0:
                 continue
-            out.append(
-                AccountBalance(account.code, account.name, account.type, d, c)
-            )
+            out.append(AccountBalance(account.code, account.name, account.type, d, c))
         return out
 
     def trial_balance(self) -> tuple[list[AccountBalance], int, int]:

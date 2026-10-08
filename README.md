@@ -95,10 +95,11 @@ Settings load from environment variables with the `LG_` prefix (see
 
 The categoriser is trained on synthetic descriptions, so a random train/test
 split would report a meaningless ~1.0. It would also be easy to *accidentally*
-ship an overfit model — and in fact an early version of this project did: a
-first generator scored **0.44** on a phrase-disjoint split with a **0.56**
-train/test gap. That is template memorisation, and it was only caught by running
-the disjoint evaluation rather than trusting the within-distribution score.
+ship an overfit model: a generator whose test descriptions reuse the training
+keywords yields a near-perfect within-distribution score that collapses on a
+phrase-disjoint split, with a large train/test gap. That is template
+memorisation, and it shows only when you run the disjoint evaluation rather than
+trusting the within-distribution number.
 
 The fix was to model descriptions the way real bank/card memos actually read:
 each account carries **recurring anchor keywords** ("office rent", "payroll

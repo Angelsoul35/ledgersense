@@ -48,9 +48,7 @@ def _amounts_by_account(ledger: Ledger) -> dict[str, list[tuple[int, int, str]]]
     for entry in ledger.entries:
         for line in entry.lines:
             amount = line.debit_cents + line.credit_cents
-            by_account.setdefault(line.account_code, []).append(
-                (amount, entry.seq, entry.date)
-            )
+            by_account.setdefault(line.account_code, []).append((amount, entry.seq, entry.date))
     return by_account
 
 

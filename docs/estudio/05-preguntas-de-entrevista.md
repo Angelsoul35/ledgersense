@@ -15,11 +15,13 @@ enteros son más simples y rápidos para este alcance; lo documento como decisi�
 (ADR 0001) y señalo que importes sub-céntimo quedarían fuera.
 
 ### "Tu categorizador de IA, ¿no está sobreajustado?"
-Lo comprobé y, de hecho, la **primera versión lo estaba**: 0,44 con frases
-disjuntas y brecha 0,56. Lo arreglé modelando vocabulario ancla recurrente y
-evaluando con un split disjunto por anclas (vocabulario de comercio no visto).
-Ahora da **0,89 ± 0,04** con una brecha acotada de 0,11. Reporto el promedio de
-varios seeds, no un único split con suerte.
+Lo mido justamente para saberlo: en vez de un split aleatorio (que sobre datos de
+plantilla daría ~1,0 engañoso), evalúo con un **split disjunto por anclas** —
+retiro vocabulario de comercio entero del entrenamiento— y promedio sobre varios
+seeds. Así da **0,89 ± 0,04** con una brecha train-test acotada de **0,11**: si
+el modelo hubiera memorizado las plantillas, esa brecha sería grande y la
+exactitud disjunta se desplomaría. Reporto el promedio de varios seeds, no un
+único split con suerte.
 
 ### "¿Qué pasa si el modelo clasifica mal un cargo?"
 Nada grave: si la confianza es baja, no se contabiliza y va a revisión humana. Y

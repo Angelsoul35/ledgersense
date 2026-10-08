@@ -137,9 +137,7 @@ CONTEXT_FRAGMENTS: list[str] = [
 ALL_CODES = list(ANCHORS.keys())
 
 
-def _compose(
-    rng: np.random.Generator, anchors: list[str], contexts: list[str]
-) -> str:
+def _compose(rng: np.random.Generator, anchors: list[str], contexts: list[str]) -> str:
     anchor = str(rng.choice(anchors))
     k = int(rng.integers(1, 3))
     frags = list(rng.choice(contexts, size=min(k, len(contexts)), replace=False))

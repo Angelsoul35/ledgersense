@@ -26,10 +26,10 @@ La mediana y la MAD son **insensibles** a unos pocos outliers, así que el impor
 anómalo **sobresale** en lugar de esconderse. La constante 0,6745 escala la MAD
 para que, con datos normales, el z robusto coincida con el z ordinario.
 
-Detalles de diseño honestos:
+Detalles de diseño rigurosos:
 
 - Cuentas con **menos de `min_samples`** movimientos se **saltan**: no hay
-  suficiente historial para llamar anómalo a nada, y adivinar sería deshonesto.
+  suficiente historial para llamar anómalo a nada, y adivinar sería incorrecto.
 - Cuentas cuyos importes son **todos idénticos** (MAD = 0) no producen anomalías.
 - Cada hallazgo es **explicable**: dice el importe, la mediana típica de la
   cuenta y a cuántas desviaciones robustas está.

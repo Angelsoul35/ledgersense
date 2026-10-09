@@ -1,4 +1,4 @@
-"""Honest, phrase-disjoint evaluation of the transaction categoriser.
+"""Leakage-free, phrase-disjoint evaluation of the transaction categoriser.
 
 A random split of synthetic data would report a meaningless ~1.0 accuracy
 because train and test share phrasings. :func:`phrase_disjoint_eval` instead

@@ -91,7 +91,7 @@ Settings load from environment variables with the `LG_` prefix (see
 | `LG_ANOMALY_Z_THRESHOLD`        | `3.5`   | Robust z above which an amount is flagged            |
 | `LG_ANOMALY_MIN_CENTS`          | `1000`  | Amounts below this are ignored as noise              |
 
-## Evaluation: honest generalisation, not a memorised 1.0
+## Evaluation: leakage-free generalisation, not a memorised 1.0
 
 The categoriser is trained on synthetic descriptions, so a random train/test
 split would report a meaningless ~1.0. It would also be easy to *accidentally*
@@ -126,9 +126,9 @@ split. What this number does and does not claim, stated plainly:
   "lease"/"rent" recur across the training examples.
 - It does **not** claim perfection: a held-out keyword with no stem relative in
   training (a genuinely novel merchant vocabulary) is where the ~11% of errors
-  land. Closing that gap needs training on real labelled transactions, not more
-  synthetic data; the honest baseline to beat there is this anchor-disjoint
-  score, not the within-distribution ~1.0.
+  land. The rigorous baseline to beat there is this anchor-disjoint score, not
+  the within-distribution ~1.0 — and the next section puts the *same* pipeline on
+  real, labelled bank transactions to measure exactly that.
 
 Because the model can be wrong, it never posts unsupervised: low-confidence
 suggestions go to review, and the ledger's invariants hold regardless of what the
@@ -156,9 +156,9 @@ too-few-samples and identical-amounts handled), the HTTP API, and the CLI demo.
 ## A note on scope
 
 LedgerSense is a reference implementation, not certified accounting software. It
-demonstrates a clean, auditable double-entry core with assistive ML done
-honestly. A production system would add persistence, authenticated users,
-multi-currency, period closing, and training on real labelled transactions.
+demonstrates a clean, auditable double-entry core with assistive ML measured
+rigorously. A production system would add persistence, authenticated users,
+multi-currency, period closing, and a larger corpus of labelled transactions.
 
 ## License
 

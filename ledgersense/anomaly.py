@@ -65,7 +65,7 @@ def detect(
     Only accounts whose type is in ``account_types`` are considered (expense and
     income by default — see the note at the top of this module). Accounts with
     fewer than ``min_samples`` postings are skipped: there is not enough history
-    to call anything anomalous, and guessing would be dishonest.
+    to call anything anomalous, and guessing would fabricate a signal.
     """
     anomalies: list[AmountAnomaly] = []
     for code, rows in _amounts_by_account(ledger).items():

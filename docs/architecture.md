@@ -12,7 +12,7 @@ ever being trusted to change the books on their own.
 | Ledger       | `ledgersense/ledger.py`   | Validated, append-only, hash-chained double-entry journal |
 | Categoriser  | `ledgersense/categorizer.py` | Free-text description → account code, with explanation |
 | Generator    | `ledgersense/generate.py` | Synthetic labelled descriptions + phrase-disjoint split |
-| Evaluation   | `ledgersense/evaluation.py` | Honest generalisation measurement                     |
+| Evaluation   | `ledgersense/evaluation.py` | Leakage-free generalisation measurement               |
 | Anomaly      | `ledgersense/anomaly.py`  | Robust-z amount outliers per account                    |
 | Service      | `ledgersense/service.py`  | Orchestration: categorise → post → check                |
 | HTTP API     | `ledgersense/main.py`     | REST surface over the service                           |

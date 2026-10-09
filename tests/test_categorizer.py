@@ -26,7 +26,7 @@ def test_suggests_sensible_accounts(categorizer: TransactionCategorizer):
 
 
 def test_anchor_disjoint_generalises_without_overfitting():
-    # Honest evaluation: whole anchor keywords are held out of training, so the
+    # Leakage-free evaluation: whole anchor keywords are held out of training, so the
     # test vocabulary is unseen and a near-1.0 within-distribution score cannot
     # hide memorisation. Measured ~0.89 +/- 0.04 across seeds.
     report = phrase_disjoint_eval()

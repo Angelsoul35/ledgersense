@@ -1,0 +1,282 @@
+{"text": "Uber 072515 SFPOOL", "category": "Transportation", "split": "train"}
+{"text": "United Airlines", "category": "Transportation", "split": "train"}
+{"text": "INTRST PYMNT", "category": "Payments/Credits", "split": "train"}
+{"text": "SparkFun", "category": "Shopping", "split": "train"}
+{"text": "McDonald's", "category": "Dining Out", "split": "train"}
+{"text": "Starbucks", "category": "Dining Out", "split": "train"}
+{"text": "United Airlines", "category": "Transportation", "split": "train"}
+{"text": "Touchstone Climbing", "category": "Entertainment", "split": "train"}
+{"text": "CD DEPOSIT .INITIAL.", "category": "Payments/Credits", "split": "train"}
+{"text": "ACH Electronic CreditGUSTO PAY 123456", "category": "Payments/Credits", "split": "train"}
+{"text": "Uber 063015 SFPOOL", "category": "Transportation", "split": "train"}
+{"text": "CREDIT CARD 3333 PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "Tectra Inc", "category": "Shopping", "split": "train"}
+{"text": "Amazon.com", "category": "Shopping", "split": "train"}
+{"text": "Walmart.com", "category": "Shopping", "split": "train"}
+{"text": "Best Buy", "category": "Shopping", "split": "train"}
+{"text": "Target", "category": "Shopping", "split": "train"}
+{"text": "Macy's", "category": "Shopping", "split": "train"}
+{"text": "Uber 041521 NYC**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 051322 LA**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "Delta Air Lines", "category": "Transportation", "split": "train"}
+{"text": "American Airlines", "category": "Transportation", "split": "train"}
+{"text": "Spirit Airlines", "category": "Transportation", "split": "train"}
+{"text": "MORTGAGE PAYMENT", "category": "Housing", "split": "train"}
+{"text": "RENT PAYMENT", "category": "Housing", "split": "train"}
+{"text": "ELECTRICITY BILL", "category": "Utilities", "split": "train"}
+{"text": "GAS BILL", "category": "Utilities", "split": "train"}
+{"text": "CABLE TV", "category": "Utilities", "split": "train"}
+{"text": "WATER BILL", "category": "Utilities", "split": "train"}
+{"text": "Chipotle", "category": "Dining Out", "split": "train"}
+{"text": "Olive Garden", "category": "Dining Out", "split": "train"}
+{"text": "Outback Steakhouse", "category": "Dining Out", "split": "train"}
+{"text": "Panera Bread", "category": "Dining Out", "split": "train"}
+{"text": "PAYCHECK DEPOSIT", "category": "Payments/Credits", "split": "train"}
+{"text": "TAX REFUND", "category": "Payments/Credits", "split": "train"}
+{"text": "BONUS PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "INTEREST EARNED", "category": "Payments/Credits", "split": "train"}
+{"text": "AMC Theatres", "category": "Entertainment", "split": "train"}
+{"text": "Dave & Buster's", "category": "Entertainment", "split": "train"}
+{"text": "Top Golf", "category": "Entertainment", "split": "train"}
+{"text": "Escape Room Adventure", "category": "Entertainment", "split": "train"}
+{"text": "Netflix", "category": "Service Subscriptions", "split": "train"}
+{"text": "Hulu", "category": "Service Subscriptions", "split": "train"}
+{"text": "Spotify", "category": "Service Subscriptions", "split": "train"}
+{"text": "Adobe Creative Cloud", "category": "Service Subscriptions", "split": "train"}
+{"text": "Amazon.com", "category": "Shopping", "split": "train"}
+{"text": "Walmart.com", "category": "Shopping", "split": "train"}
+{"text": "Best Buy", "category": "Shopping", "split": "train"}
+{"text": "Target", "category": "Shopping", "split": "train"}
+{"text": "Macy's", "category": "Shopping", "split": "train"}
+{"text": "Uber 041521 NYC**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 051322 LA**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "Delta Air Lines", "category": "Transportation", "split": "train"}
+{"text": "American Airlines", "category": "Transportation", "split": "train"}
+{"text": "Spirit Airlines", "category": "Transportation", "split": "train"}
+{"text": "MORTGAGE PAYMENT", "category": "Housing", "split": "train"}
+{"text": "RENT PAYMENT", "category": "Housing", "split": "train"}
+{"text": "ELECTRICITY BILL", "category": "Utilities", "split": "train"}
+{"text": "GAS BILL", "category": "Utilities", "split": "train"}
+{"text": "CABLE TV", "category": "Utilities", "split": "train"}
+{"text": "WATER BILL", "category": "Utilities", "split": "train"}
+{"text": "Chipotle", "category": "Dining Out", "split": "train"}
+{"text": "Olive Garden", "category": "Dining Out", "split": "train"}
+{"text": "Outback Steakhouse", "category": "Dining Out", "split": "train"}
+{"text": "Panera Bread", "category": "Dining Out", "split": "train"}
+{"text": "PAYCHECK DEPOSIT", "category": "Payments/Credits", "split": "train"}
+{"text": "TAX REFUND", "category": "Payments/Credits", "split": "train"}
+{"text": "BONUS PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "INTEREST EARNED", "category": "Payments/Credits", "split": "train"}
+{"text": "AMC Theatres", "category": "Entertainment", "split": "train"}
+{"text": "Dave & Buster's", "category": "Entertainment", "split": "train"}
+{"text": "Top Golf", "category": "Entertainment", "split": "train"}
+{"text": "Escape Room Adventure", "category": "Entertainment", "split": "train"}
+{"text": "Netflix", "category": "Service Subscriptions", "split": "train"}
+{"text": "Hulu", "category": "Service Subscriptions", "split": "train"}
+{"text": "Spotify", "category": "Service Subscriptions", "split": "train"}
+{"text": "Adobe Creative Cloud", "category": "Service Subscriptions", "split": "train"}
+{"text": "Costco", "category": "Shopping", "split": "train"}
+{"text": "Ikea", "category": "Shopping", "split": "train"}
+{"text": "Home Depot", "category": "Shopping", "split": "train"}
+{"text": "Lowe's", "category": "Shopping", "split": "train"}
+{"text": "Uber 072615 SF**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 081122 SEA**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "Southwest Airlines", "category": "Transportation", "split": "train"}
+{"text": "JetBlue Airways", "category": "Transportation", "split": "train"}
+{"text": "United Airlines", "category": "Transportation", "split": "train"}
+{"text": "STUDENT LOAN PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "AUTO LOAN PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "CREDIT CARD PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "INSURANCE PAYMENT", "category": "Utilities", "split": "train"}
+{"text": "PHONE BILL", "category": "Utilities", "split": "train"}
+{"text": "McDonald's", "category": "Dining Out", "split": "train"}
+{"text": "Burger King", "category": "Dining Out", "split": "train"}
+{"text": "Wendy's", "category": "Dining Out", "split": "train"}
+{"text": "Taco Bell", "category": "Dining Out", "split": "train"}
+{"text": "SALARY DEPOSIT", "category": "Payments/Credits", "split": "train"}
+{"text": "INVESTMENT INCOME", "category": "Payments/Credits", "split": "train"}
+{"text": "DIVIDEND PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "CAPITAL GAINS", "category": "Payments/Credits", "split": "train"}
+{"text": "Movie Tavern", "category": "Entertainment", "split": "train"}
+{"text": "Bowling Alley", "category": "Entertainment", "split": "train"}
+{"text": "Laser Tag Arena", "category": "Entertainment", "split": "train"}
+{"text": "Mini Golf Course", "category": "Entertainment", "split": "train"}
+{"text": "Spotify Premium", "category": "Service Subscriptions", "split": "train"}
+{"text": "Amazon Prime", "category": "Service Subscriptions", "split": "train"}
+{"text": "Xbox Live Gold", "category": "Service Subscriptions", "split": "train"}
+{"text": "PlayStation Plus", "category": "Service Subscriptions", "split": "train"}
+{"text": "Nordstrom", "category": "Shopping", "split": "train"}
+{"text": "Sephora", "category": "Shopping", "split": "train"}
+{"text": "Ulta Beauty", "category": "Shopping", "split": "train"}
+{"text": "Lululemon Athletica", "category": "Shopping", "split": "train"}
+{"text": "Uber 102821 CHI**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 112622 MIA**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "Frontier Airlines", "category": "Transportation", "split": "train"}
+{"text": "Allegiant Air", "category": "Transportation", "split": "train"}
+{"text": "Hawaiian Airlines", "category": "Transportation", "split": "train"}
+{"text": "HOME REPAIR SERVICE", "category": "Housing", "split": "train"}
+{"text": "LAWN CARE SERVICE", "category": "Housing", "split": "train"}
+{"text": "PEST CONTROL SERVICE", "category": "Housing", "split": "train"}
+{"text": "APPLIANCE REPAIR", "category": "Housing", "split": "train"}
+{"text": "INTERNET SERVICE", "category": "Utilities", "split": "train"}
+{"text": "HEATING OIL DELIVERY", "category": "Utilities", "split": "train"}
+{"text": "Buffalo Wild Wings", "category": "Dining Out", "split": "train"}
+{"text": "Applebee's", "category": "Dining Out", "split": "train"}
+{"text": "Chili's", "category": "Dining Out", "split": "train"}
+{"text": "TFSA Contribution", "category": "Payments/Credits", "split": "train"}
+{"text": "RRSP Contribution", "category": "Payments/Credits", "split": "train"}
+{"text": "401K Contribution", "category": "Payments/Credits", "split": "train"}
+{"text": "Roth IRA Contribution", "category": "Payments/Credits", "split": "train"}
+{"text": "Movie Tickets", "category": "Entertainment", "split": "train"}
+{"text": "Concert Tickets", "category": "Entertainment", "split": "train"}
+{"text": "Sporting Event Tickets", "category": "Entertainment", "split": "train"}
+{"text": "Theatre Show Tickets", "category": "Entertainment", "split": "train"}
+{"text": "YouTube Premium", "category": "Service Subscriptions", "split": "train"}
+{"text": "Dropbox Plus", "category": "Service Subscriptions", "split": "train"}
+{"text": "Microsoft Office 365", "category": "Service Subscriptions", "split": "train"}
+{"text": "Grammarly Premium", "category": "Service Subscriptions", "split": "train"}
+{"text": "eBay", "category": "Shopping", "split": "train"}
+{"text": "Etsy", "category": "Shopping", "split": "train"}
+{"text": "Wayfair", "category": "Shopping", "split": "train"}
+{"text": "Overstock.com", "category": "Shopping", "split": "train"}
+{"text": "Uber 032123 DEN**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 041824 ATL**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "Frontier Airlines", "category": "Transportation", "split": "train"}
+{"text": "Spirit Airlines", "category": "Transportation", "split": "train"}
+{"text": "Sun Country Airlines", "category": "Transportation", "split": "train"}
+{"text": "CONDO FEES", "category": "Housing", "split": "train"}
+{"text": "HOA DUES", "category": "Housing", "split": "train"}
+{"text": "PROPERTY TAX", "category": "Housing", "split": "train"}
+{"text": "HOME INSURANCE", "category": "Utilities", "split": "train"}
+{"text": "CELL PHONE PLAN", "category": "Utilities", "split": "train"}
+{"text": "Starbucks", "category": "Dining Out", "split": "train"}
+{"text": "Dunkin' Donuts", "category": "Dining Out", "split": "train"}
+{"text": "Subway", "category": "Dining Out", "split": "train"}
+{"text": "Domino's Pizza", "category": "Dining Out", "split": "train"}
+{"text": "FREELANCE PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "INVESTMENT WITHDRAWAL", "category": "Payments/Credits", "split": "train"}
+{"text": "INHERITANCE PAYOUT", "category": "Payments/Credits", "split": "train"}
+{"text": "LEGAL SETTLEMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "Bowling Party", "category": "Entertainment", "split": "train"}
+{"text": "Karaoke Night", "category": "Entertainment", "split": "train"}
+{"text": "Comedy Club", "category": "Entertainment", "split": "train"}
+{"text": "Museum Admission", "category": "Entertainment", "split": "train"}
+{"text": "Amazon Music Unlimited", "category": "Service Subscriptions", "split": "train"}
+{"text": "iCloud Storage", "category": "Service Subscriptions", "split": "train"}
+{"text": "Adobe Acrobat Pro DC", "category": "Service Subscriptions", "split": "train"}
+{"text": "Calm Premium", "category": "Service Subscriptions", "split": "train"}
+{"text": "REI", "category": "Shopping", "split": "train"}
+{"text": "Dick's Sporting Goods", "category": "Shopping", "split": "train"}
+{"text": "Cabela's", "category": "Shopping", "split": "train"}
+{"text": "Bass Pro Shops", "category": "Shopping", "split": "train"}
+{"text": "Uber 061524 BOS**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 072325 PHI**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "JetBlue Airways", "category": "Transportation", "split": "train"}
+{"text": "Spirit Airlines", "category": "Transportation", "split": "train"}
+{"text": "Frontier Airlines", "category": "Transportation", "split": "train"}
+{"text": "HOUSE CLEANING SERVICE", "category": "Housing", "split": "train"}
+{"text": "POOL MAINTENANCE", "category": "Housing", "split": "train"}
+{"text": "CARPET CLEANING", "category": "Housing", "split": "train"}
+{"text": "PAINTING SERVICE", "category": "Housing", "split": "train"}
+{"text": "TRASH REMOVAL SERVICE", "category": "Utilities", "split": "train"}
+{"text": "SECURITY SYSTEM", "category": "Utilities", "split": "train"}
+{"text": "Cheesecake Factory", "category": "Dining Out", "split": "train"}
+{"text": "P.F. Chang's", "category": "Dining Out", "split": "train"}
+{"text": "Red Lobster", "category": "Dining Out", "split": "train"}
+{"text": "STOCK TRADE", "category": "Payments/Credits", "split": "train"}
+{"text": "CRYPTO PURCHASE", "category": "Payments/Credits", "split": "train"}
+{"text": "ONLINE GAMBLING WINNINGS", "category": "Payments/Credits", "split": "train"}
+{"text": "LOTTERY WINNINGS", "category": "Payments/Credits", "split": "train"}
+{"text": "Go-Kart Racing", "category": "Entertainment", "split": "train"}
+{"text": "Axe Throwing", "category": "Entertainment", "split": "train"}
+{"text": "Indoor Skydiving", "category": "Entertainment", "split": "train"}
+{"text": "Zipline Adventure", "category": "Entertainment", "split": "train"}
+{"text": "Disney Plus", "category": "Service Subscriptions", "split": "train"}
+{"text": "Apple TV Plus", "category": "Service Subscriptions", "split": "train"}
+{"text": "Audible Premium Plus", "category": "Service Subscriptions", "split": "train"}
+{"text": "MasterClass", "category": "Service Subscriptions", "split": "train"}
+{"text": "Nike", "category": "Shopping", "split": "train"}
+{"text": "Adidas", "category": "Shopping", "split": "train"}
+{"text": "Under Armour", "category": "Shopping", "split": "train"}
+{"text": "Levi's", "category": "Shopping", "split": "train"}
+{"text": "Uber 091026 MIA**POOL**", "category": "Transportation", "split": "train"}
+{"text": "Lyft 102927 LAS**SHARE**", "category": "Transportation", "split": "train"}
+{"text": "Southwest Airlines", "category": "Transportation", "split": "train"}
+{"text": "Alaska Airlines", "category": "Transportation", "split": "train"}
+{"text": "Hawaiian Airlines", "category": "Transportation", "split": "train"}
+{"text": "MORTGAGE REFINANCE COSTS", "category": "Housing", "split": "train"}
+{"text": "MOVING EXPENSES", "category": "Housing", "split": "train"}
+{"text": "HOME REPAIRS", "category": "Housing", "split": "train"}
+{"text": "FURNITURE ASSEMBLY", "category": "Housing", "split": "train"}
+{"text": "TRASH SERVICE", "category": "Utilities", "split": "train"}
+{"text": "PEST CONTROL SERVICE", "category": "Utilities", "split": "train"}
+{"text": "TGI Fridays", "category": "Dining Out", "split": "train"}
+{"text": "Ruby Tuesday", "category": "Dining Out", "split": "train"}
+{"text": "Cracker Barrel", "category": "Dining Out", "split": "train"}
+{"text": "BONUS PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "SEVERANCE PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "ROYALTY PAYMENT", "category": "Payments/Credits", "split": "train"}
+{"text": "INSURANCE CLAIM PAYOUT", "category": "Payments/Credits", "split": "train"}
+{"text": "Escape Room", "category": "Entertainment", "split": "train"}
+{"text": "Virtual Reality Experience", "category": "Entertainment", "split": "train"}
+{"text": "Trampoline Park", "category": "Entertainment", "split": "train"}
+{"text": "Rock Climbing Gym", "category": "Entertainment", "split": "train"}
+{"text": "YouTube TV", "category": "Service Subscriptions", "split": "train"}
+{"text": "DirecTV Stream", "category": "Service Subscriptions", "split": "train"}
+{"text": "Sling TV", "category": "Service Subscriptions", "split": "test"}
+{"text": "fuboTV", "category": "Service Subscriptions", "split": "test"}
+{"text": "Gap", "category": "Shopping", "split": "test"}
+{"text": "Old Navy", "category": "Shopping", "split": "test"}
+{"text": "Banana Republic", "category": "Shopping", "split": "test"}
+{"text": "Athleta", "category": "Shopping", "split": "test"}
+{"text": "Uber 112228 NYC**POOL**", "category": "Transportation", "split": "test"}
+{"text": "Lyft 010129 LAX**SHARE**", "category": "Transportation", "split": "test"}
+{"text": "Delta Air Lines", "category": "Transportation", "split": "test"}
+{"text": "United Airlines", "category": "Transportation", "split": "test"}
+{"text": "American Airlines", "category": "Transportation", "split": "test"}
+{"text": "HOME RENOVATION PROJECT", "category": "Housing", "split": "test"}
+{"text": "LANDSCAPING SERVICE", "category": "Housing", "split": "test"}
+{"text": "HOME WARRANTY", "category": "Housing", "split": "test"}
+{"text": "LOCKSMITH SERVICE", "category": "Housing", "split": "test"}
+{"text": "DIGITAL SUBSCRIPTIONS", "category": "Utilities", "split": "test"}
+{"text": "ALARM SYSTEM MONITORING", "category": "Utilities", "split": "test"}
+{"text": "The Cheesecake Factory", "category": "Dining Out", "split": "test"}
+{"text": "Texas Roadhouse", "category": "Dining Out", "split": "test"}
+{"text": "LongHorn Steakhouse", "category": "Dining Out", "split": "test"}
+{"text": "STOCK DIVIDEND", "category": "Payments/Credits", "split": "test"}
+{"text": "MUTUAL FUND DISTRIBUTION", "category": "Payments/Credits", "split": "test"}
+{"text": "ANNUITY PAYMENT", "category": "Payments/Credits", "split": "test"}
+{"text": "SCHOLARSHIP FUNDS", "category": "Payments/Credits", "split": "test"}
+{"text": "Live Comedy Show", "category": "Entertainment", "split": "test"}
+{"text": "Live Music Concert", "category": "Entertainment", "split": "test"}
+{"text": "Sporting Event", "category": "Entertainment", "split": "test"}
+{"text": "Broadway Show", "category": "Entertainment", "split": "test"}
+{"text": "Amazon Kindle Unlimited", "category": "Service Subscriptions", "split": "test"}
+{"text": "Scribd", "category": "Service Subscriptions", "split": "test"}
+{"text": "Masterclass", "category": "Service Subscriptions", "split": "test"}
+{"text": "Skillshare", "category": "Service Subscriptions", "split": "test"}
+{"text": "Neiman Marcus", "category": "Shopping", "split": "test"}
+{"text": "Saks Fifth Avenue", "category": "Shopping", "split": "test"}
+{"text": "Bloomingdale's", "category": "Shopping", "split": "test"}
+{"text": "Bergdorf Goodman", "category": "Shopping", "split": "test"}
+{"text": "Uber 021530 LAS**POOL**", "category": "Transportation", "split": "test"}
+{"text": "Lyft 032331 MIA**SHARE**", "category": "Transportation", "split": "test"}
+{"text": "Alaska Airlines", "category": "Transportation", "split": "test"}
+{"text": "Hawaiian Airlines", "category": "Transportation", "split": "test"}
+{"text": "Sun Country Airlines", "category": "Transportation", "split": "test"}
+{"text": "BASEMENT REMODEL", "category": "Housing", "split": "test"}
+{"text": "DECK CONSTRUCTION", "category": "Housing", "split": "test"}
+{"text": "GARAGE DOOR REPAIR", "category": "Housing", "split": "test"}
+{"text": "GUTTER CLEANING SERVICE", "category": "Housing", "split": "test"}
+{"text": "INTERNET SERVICE PROVIDER", "category": "Utilities", "split": "test"}
+{"text": "SATELLITE TV SERVICE", "category": "Utilities", "split": "test"}
+{"text": "Bahama Breeze", "category": "Dining Out", "split": "test"}
+{"text": "Bonefish Grill", "category": "Dining Out", "split": "test"}
+{"text": "Carrabba's Italian Grill", "category": "Dining Out", "split": "test"}
+{"text": "BANK ACCOUNT INTEREST", "category": "Payments/Credits", "split": "test"}
+{"text": "RENTAL INCOME", "category": "Payments/Credits", "split": "test"}
+{"text": "LEGAL SETTLEMENT", "category": "Payments/Credits", "split": "test"}
+{"text": "GAMBLING WINNINGS", "category": "Payments/Credits", "split": "test"}
+{"text": "Miniature Golf", "category": "Entertainment", "split": "test"}
+{"text": "Paint and Sip", "category": "Entertainment", "split": "test"}
+{"text": "Arcade", "category": "Entertainment", "split": "test"}

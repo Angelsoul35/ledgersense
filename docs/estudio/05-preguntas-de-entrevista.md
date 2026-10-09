@@ -42,5 +42,5 @@ esconderse.
 ### "¿Qué harías para llevar esto a producción?"
 Persistencia (base de datos), usuarios autenticados, multidivisa, cierre de
 periodos, y sobre todo **reentrenar el categorizador con transacciones reales
-etiquetadas**, midiendo contra el score disjunto (el honesto), no el de dentro de
+etiquetadas**, midiendo contra el score disjunto (el riguroso), no el de dentro de
 distribución.

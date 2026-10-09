@@ -38,6 +38,22 @@ def _build_features() -> FeatureUnion:
     )
 
 
+def build_pipeline() -> Pipeline:
+    """The categoriser's exact learning pipeline as an unfitted scikit-learn estimator.
+
+    This is the single source of truth for the model: :meth:`TransactionCategorizer.fit`
+    trains an instance of it, and any external evaluation (for example
+    :mod:`ledgersense.real_benchmark`) measures *this* pipeline rather than a
+    stand-in, so the reported numbers describe the component that ships.
+    """
+    return Pipeline(
+        [
+            ("features", _build_features()),
+            ("clf", LogisticRegression(max_iter=2000, C=4.0)),
+        ]
+    )
+
+
 class TransactionCategorizer:
     def __init__(self, min_confidence: float = 0.45) -> None:
         self.min_confidence = min_confidence
@@ -47,12 +63,7 @@ class TransactionCategorizer:
     def fit(self, texts: list[str] | None = None, labels: list[str] | None = None):
         if texts is None or labels is None:
             texts, labels = make_dataset()
-        pipeline = Pipeline(
-            [
-                ("features", _build_features()),
-                ("clf", LogisticRegression(max_iter=2000, C=4.0)),
-            ]
-        )
+        pipeline = build_pipeline()
         pipeline.fit(texts, labels)
         self._pipeline = pipeline
         return self

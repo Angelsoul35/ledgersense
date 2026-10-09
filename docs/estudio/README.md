@@ -12,7 +12,7 @@ cada decisión.
 2. [02 — El libro mayor y la cadena de hash](02-libro-mayor-y-hash.md)
    Cómo se registra un asiento y por qué el historial es a prueba de manipulación.
 3. [03 — El categorizador de IA](03-categorizador-ia.md)
-   Cómo se clasifica un cargo en lenguaje libre y cómo se evalúa con honestidad.
+   Cómo se clasifica un cargo en lenguaje libre y cómo se evalúa con rigor.
 4. [04 — Detección de anomalías](04-deteccion-anomalias.md)
    Por qué usamos la mediana (z robusto) y no la media para detectar importes raros.
 5. [05 — Preguntas de entrevista](05-preguntas-de-entrevista.md)

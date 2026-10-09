@@ -1,6 +1,6 @@
 """Synthetic, labelled transaction descriptions for the categoriser.
 
-Design note (this matters for honesty). A first version used a handful of fixed
+Design note (this is what keeps the evaluation grounded). A first version used a handful of fixed
 sentences per account; a phrase-disjoint evaluation then scored only ~0.44 with a
 0.56 train/test gap — the classic template-memorisation trap. Real bank and card
 descriptions are not arbitrary sentences: each category carries **recurring
@@ -16,7 +16,7 @@ So descriptions here are composed from two parts:
 * **context** — generic filler ("monthly", "invoice", "ref 1234", "billed to the
   card"), shared across all accounts because it appears everywhere.
 
-The honest evaluation (:func:`make_split_datasets`) holds out *whole anchor
+The leakage-free evaluation (:func:`make_split_datasets`) holds out *whole anchor
 keywords* from training, so the test descriptions centre on merchant vocabulary
 never seen in training. That is the hard, realistic generalisation question — can
 the model place a charge it has no exact keyword for? — and it is why the
